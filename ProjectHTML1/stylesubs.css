@@ -1,0 +1,122 @@
+body{
+    height:80vh;
+    width:100%;
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(CMP22.jpg);
+    background-size:cover;
+    background-position:center;
+  width:80vh;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.kotak{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%, -44%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 7px;
+    width: fit-content;
+    background-color: white;
+    box-shadow: 1px 3px 5px gray;
+    padding: 5rem;
+}
+
+
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type=text],input[type=phone], input[type=email],button{
+    border-radius: 8px;
+    padding: 10px;
+    border: 1px solid black;
+    box-shadow: 1px 3px 5px gray;
+}
+
+input{
+    margin: 10px;
+}
+.title{
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+}
+
+button{
+    font-weight: bold;
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: white;
+    border: 1px solid gray;
+    color: black;
+    cursor: pointer;
+}
+
+input[type=text]:hover, input[type=phone]:hover, input[type=email]:hover{
+    box-shadow: 1px 3px 5px gray;
+    border: 1px solid gray;
+}
+
+.container{
+    padding-top:570px;
+	color:aliceblue;
+}
+
+
+a,a :hover{
+    text-decoration:none;
+    color : white;
+}
+
+ul{
+    list-style:none;
+}
+li{
+    display:inline-block;
+}
+ul li{
+    margin-left:30px;
+  padding-bottom: 5px;
+}
+
+
+ul li a{
+    font-size:20px;
+    letter-spacing:1px;
+    padding:10px;
+    border-radius:5px;
+    opacity:0.5;
+    transition:all 0.5s;
+
+    
+}
+
+ ul li a.active{
+    opacity:1;
+
+}
+
+ ul li a:hover{
+    opacity:1;
+
+}
+
+@media screen and (max-width: 799px) {
+
+}
+
+

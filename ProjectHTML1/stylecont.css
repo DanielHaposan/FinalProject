@@ -1,0 +1,192 @@
+*{
+    
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a,a :hover{
+    text-decoration:none;
+    color : white;
+}
+
+ul{
+    list-style:none;
+}
+li{
+    display:inline-block;
+}
+
+.header{
+    height:100vh;
+    width:100%;
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(CMP22.jpg);
+    background-size:cover;
+    background-position:center;
+  
+}
+
+.header .navigation{
+    height:70px;
+    width:90%;
+    margin:auto;
+    color: white;
+    display:flex;
+    padding-top:50px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.header .navigation .logo{
+    margin-left:50px;
+    
+}
+
+.header .navigation .logo a{
+    font-size :30px;
+    font-weight:200;
+    
+    
+    
+}
+.header .navigation .menu ul li{
+    margin-right:30px;
+}
+
+.header .navigation .menu ul li a{
+    font-size:20px;
+    letter-spacing:1px;
+    padding:10px;
+    border-radius:5px;
+    opacity:0.5;
+    transition:all 0.5s;
+
+    
+}
+
+.header .navigation .menu ul li a.active{
+    opacity:1;
+
+}
+
+.header .navigation .menu ul li a:hover{
+    opacity:1;
+
+}
+
+.header .navigation .socmed img{
+
+    width :40px;
+    height:40px;
+    line-height:40px;
+    margin-right:5px;
+ 
+    text-align: center;
+    align-items: center;
+    font-size:10px;
+    
+    transition:all 0.3s ease-in-out;
+
+  
+    
+}
+
+
+
+
+.hero{
+    width:100%;
+}
+
+.hero .row{
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:100px;
+    margin:auto;
+
+}
+
+.hero .row .left img{
+    width:100px;
+    height:60px;
+    margin:auto;
+   
+ 
+    
+}
+
+
+.hero .row .left h2{
+    font-size:30px;
+    color:white;
+    padding-top:10px;
+}
+
+.hero .row .left h2 span{
+    color:white;
+}
+.hero .row .left p{
+    
+    color:white;
+    line-height: 30px;
+    padding-bottom: 35px;
+}
+
+.hero .row .left{
+    width:70%;
+    
+
+
+
+}
+
+
+
+
+
+
+.hero .right{
+    width:80%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:5px;
+    margin:auto;
+    padding-left:50px;
+}
+
+.hero .right img{
+    width:100px;
+    height:60px;
+    margin:auto;
+    
+  
+    
+}
+
+.hero .right  h2{
+    font-size:30px;
+    color:white;
+    padding-top:10px;
+}
+
+.hero .right h2 span{
+    color:white;
+}
+.hero .right p{
+    
+    color:white;
+    line-height: 30px;
+    padding-bottom: 35px;
+    
+}
+
+.hero .right{
+    width:70%;
+
+    
+
+}
+
